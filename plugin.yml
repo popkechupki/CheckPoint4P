@@ -1,0 +1,25 @@
+name: CheckPoint
+main: popkechupki\checkpoint\Main
+api: 4.2.0
+version: 1.0.0
+load: POSTWORLD
+author: popkechupki
+description: Make check point for athletics.
+website: https://github.com/popkechupki/CheckPoint4P
+commands:
+  cp:
+    description: Teleport to check point.
+    usage: "/cp"
+    permission: checkpoint.command.def
+  addcp:
+    description: Make a check point.
+    usage: "/addcp"
+    permission: checkpoint.command.def
+  delcp:
+    description: Delete a check point.
+    usage: "/delcp"
+    permission: checkpoint.command.def
+permissions:
+  checkpoint.command.def:
+    description: "Allows all users to run the cp commands"
+    default: true
